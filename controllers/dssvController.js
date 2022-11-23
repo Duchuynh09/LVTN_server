@@ -1,20 +1,21 @@
 import { dssvCoTheDangKyModel } from "../models/dssvCoTheDangKy.js";
 import { dssvDaDangKyModel } from "../models/dssvDaDangKy.js";
-import { dssv } from "../index.js";
-import {adminAccount} from '../models/adminAccount.js'
+import {dssv } from '../index.js'
+import { sendMail } from "./sendMailController.js";
+
+
 const getDssvCoTheDangKy = async (req, res) => {
   try {
     const sv = await dssvCoTheDangKyModel.find();
     res.status(200).json(sv);
-  } catch (error) {
+  } catch (error) { 
     res.status(500);
   }
 };
 
-const getAdmin = async (req, res) => {
+const getDSSV = async (req, res) => {
   try {
-    const sv = await adminAccount.find();
-    res.status(200).json(sv);
+    res.status(200).json({ data: dssv });
   } catch (error) {
     res.status(500);
   }
@@ -38,9 +39,9 @@ const createDssvCoTheDangKy = async (req, res) => {
       });
       await sv.save();
     });
-    res.status(200);
+    res.status(200).json({ state: "success" });
   } catch (error) {
-    res.status(500);
+    res.status(500).json({ state: "failure" });
   }
 };
 
@@ -57,20 +58,12 @@ const createDssvDaDangKy = async (req, res) => {
   }
 };
 
-// const updateProduct = async (req,res) => {
-//     try {
-//         const updateProduct = req.body
-//         const product = await productModel.findOneAndUpdate({_id:updateProduct._id},updateProduct,{new:true})
-//         res.status(200).json(product)
-//     } catch (error) {
-//         res.status(500)
-//     }
-// }
+
 
 export {
   getDssvCoTheDangKy,
   getDssvDaDangKy,
   createDssvCoTheDangKy,
   createDssvDaDangKy,
-  getAdmin
+  getDSSV,
 };

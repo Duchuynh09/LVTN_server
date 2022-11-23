@@ -1,17 +1,14 @@
 import express  from "express";
-import {getDssvCoTheDangKy,getDssvDaDangKy,createDssvCoTheDangKy,createDssvDaDangKy,getAdmin}from "../controllers/dssvController.js";
+import {getDssvCoTheDangKy,getDssvDaDangKy,createDssvCoTheDangKy,createDssvDaDangKy,getDSSV}from "../controllers/dssvController.js";
 
 const router = express.Router();
 
 router.get('/dssvCoTheDangKy',getDssvCoTheDangKy)
 router.get('/dssvDaDangKy',getDssvDaDangKy)
-router.get('/admin',getAdmin)
-
-
+router.get('/ds',getDSSV)
 router.get('/createSvCoTheDangKy',createDssvCoTheDangKy)
 
 router.post('/',createDssvDaDangKy)
-// router.get('/update',updateProduct)
 
 
-export default router
+export default router  

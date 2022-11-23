@@ -26,4 +26,4 @@ const schema = mongoose.Schema({
   }
 });
 
-export const dssvDaDangKyModel = mongoose.model("dssvDaDangKy", schema);
+export const dssvDaDangKyModel = mongoose.model("graduation_dssvDaDangKy", schema);

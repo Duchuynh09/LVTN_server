@@ -1,30 +1,38 @@
 import mongoose from "mongoose";
 import bcrypt from "bcryptjs";
 
-const userSchema = mongoose.Schema({
-  username: {
+const adminSchema = mongoose.Schema({
+  email: {
     type: String,
     require: true,
+    unique:true
   },
   password: {
     type: String,
     require: true,
   },
-  email: {
-    type: String,
+  isAdmin:{
+    type:Boolean,
+    default:true
   },
+  level:{
+    type:String
+  }
 });
 
-userSchema.pre("save", async function (next) {
+
+
+adminSchema.pre("save", async function (next) {
   try {
     const salt = await bcrypt.genSalt(10); // creat salt 10 char
     const passwordHashed = await bcrypt.hash(this.password, salt); // passwordHashed + salt
     this.password = passwordHashed; // done
-    
     next();
   } catch (error) {
     next(error);
   }
 });
 
-export const adminAccount = mongoose.model("adminAccount", userSchema);
+
+
+export const admins = mongoose.model("graduation_admins", adminSchema);
