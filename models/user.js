@@ -11,6 +11,18 @@ const userSchema = mongoose.Schema({
     require: true,
     unique:true
   },
+  role:{
+    type:String,
+    default:'sinhVien' // giangVien
+  },
+  eventsJoin:{
+    type: Array,
+    default: []
+  },
+  eventsMake:{
+    type:Array,
+    default: []
+  }
 });
 
 

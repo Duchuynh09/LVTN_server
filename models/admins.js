@@ -17,6 +17,14 @@ const adminSchema = mongoose.Schema({
   },
   level:{
     type:String
+  },
+  eventsJoin:{
+    type: Array,
+    default: []
+  },
+  eventsMake:{
+    type:Array,
+    default: []
   }
 });
 

@@ -7,12 +7,10 @@ import env from "dotenv";
 import productRouter from "./routers/dssvRoutes.js";
 import userRouter from "./routers/userRoutes.js";
 import adminRouter from "./routers/adminRoutes.js";
-import updateListRouter from "./routers/updateListRoutes.js";
 import sendMailRouter from './routers/sendMailRoutes.js'
 
-import { openDssv } from "./service/handleFileTxt.js";
 
-env.config();
+env.config(); 
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -26,10 +24,8 @@ app.use("/dssv", productRouter);
 app.use("/sendMail", sendMailRouter);
 app.use("/user", userRouter);
 app.use("/admins", adminRouter);
-app.use("/updateList", updateListRouter);
+ 
 
-let dssv = openDssv('/2022');
-// mở file với tham số là ngày kí danh sách
 
 
 
@@ -46,5 +42,4 @@ mongoose
     console.log(err);
   });
 
-export { dssv };
  
