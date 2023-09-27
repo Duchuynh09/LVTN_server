@@ -4,28 +4,42 @@ import bcrypt from "bcryptjs";
 const userSchema = mongoose.Schema({
   password: {
     type: String,
-    require: true,
+    required: true,
   },
   email: {
     type: String,
-    require: true,
-    unique:true
+    required: true,
+    unique: true,
   },
-  role:{
-    type:String,
-    default:'sinhVien' // giangVien
+  idUser: {
+    type: String,
+    unique: true,
   },
-  eventsJoin:{
+  name: {
+    type: String,
+  },
+  idClass: {
+    type: String,
+  },
+  major: {
+    type: String,
+  },
+  department: {
+    type: String,
+  },
+  role: {
+    type: String,
+    default: "sinhVien", // giangVien
+  },
+  eventsJoin: {
     type: Array,
-    default: []
+    default: [],
   },
-  eventsMake:{
-    type:Array,
-    default: []
-  }
+  eventsMake: {
+    type: Array,
+    default: [],
+  },
 });
-
-
 
 userSchema.pre("save", async function (next) {
   try {
@@ -37,7 +51,5 @@ userSchema.pre("save", async function (next) {
     next(error);
   }
 });
-
-
 
 export const users = mongoose.model("graduation_users", userSchema);

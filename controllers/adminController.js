@@ -32,26 +32,26 @@ const compareAdmin = async (req, res) => {
     const admin = await admins.findOne({ email });
 
     if (!admin) return res.status(200).json({ state: "failure" });
+    // Dịch ngược pass
     const isCorrectPassword = await bcrypt.compare(password, admin.password);
 
     if (!isCorrectPassword) return res.status(200).json({ state: "failure" });
 
     const accessToken = jwt.sign(
       {
-        role: 'admin',
+        role: "admin",
         _id: admin._id,
       },
       process.env.SECRET_KEY
     );
-
 
     return res.status(200).json({
       state: "success",
       token: accessToken,
       user: {
         email,
-        isAdmin:admin.isAdmin,
-        level:admin.level
+        isAdmin: admin.isAdmin,
+        level: admin.level,
       },
     });
   } catch (error) {

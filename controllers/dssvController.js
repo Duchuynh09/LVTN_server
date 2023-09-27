@@ -77,12 +77,22 @@ const getPendingEvents = async (req, res) => {
 const createEvent = async (req, res) => {
   try {
     const idReq = req.params.id;
-    // if(idReq === 'null') return res.status(204).json({ message:'failure' });
-    // lấy id cua event da duoc duyệt
+
     const event = await pendingEventModel.findById(idReq);
     const user = await users.findOne({ email: event.author });
     const admin = await admins.findOne({ email: event.author });
-
+    const evt = new eventModel({
+      name: event.name,
+      dsCoTheDangKy: event.dsCoTheDangKy,
+      dsDaDangKy: event.dsDaDangKy,
+      author: event.author,
+      limit: event.limit,
+      date: event.date,
+      time: event.time,
+      specialSeat: event.specialSeat,
+    });
+    const evnt = await evt.save(); // luu event vua tao
+    const { _id, ...restData } = evnt;
     if (user) {
       await users.findOneAndUpdate(
         { email: event.author },
@@ -90,6 +100,7 @@ const createEvent = async (req, res) => {
           eventsMake: [
             ...user.eventsMake,
             {
+              id: _id || "",
               name: event.name || "",
               limit: event.limit || "",
               date: event.date || "",
@@ -105,6 +116,7 @@ const createEvent = async (req, res) => {
           eventsMake: [
             ...admin.eventsMake,
             {
+              id: _id || "",
               name: event.name || "",
               limit: event.limit || "",
               date: event.date || "",
@@ -116,19 +128,6 @@ const createEvent = async (req, res) => {
     } else {
       return res.status(400).json({ state: "failure" });
     }
-
-    // tạo event
-    const evt = new eventModel({
-      name: event.name,
-      dsCoTheDangKy: event.dsCoTheDangKy,
-      dsDaDangKy: event.dsDaDangKy,
-      author: event.author,
-      limit: event.limit,
-      date: event.date,
-      time: event.time,
-      specialSeat: event.specialSeat,
-    });
-    await evt.save(); // luu event vua tao
 
     await pendingEventModel.findByIdAndDelete(idReq); // xóa event pending trong ds pendingEvent
     return res.status(200).json({ state: "success" });
@@ -166,7 +165,6 @@ const deleteEvent = async (req, res) => {
   try {
     const idReq = req.params.id;
     const ds = await eventModel.findByIdAndDelete(idReq);
-    // console.log(ds);
 
     // xóa sự kiện này trong mục tham gia của các user
     ds?.dsDaDangKy.forEach(async (item) => {
@@ -358,6 +356,7 @@ const addDataDDK = async (req, res) => {
           eventsJoin: [
             ...user.eventsJoin,
             {
+              id: ds._id || "",
               name: ds.name || "",
               author: ds.author || "",
               date: ds.date || "",

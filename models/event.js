@@ -1,31 +1,32 @@
 import mongoose from "mongoose";
 
 const schema = mongoose.Schema({
-  name:{
+  name: {
     type: String,
-    require:true
+    require: true,
   },
-  dsDaDangKy:{
+  // Sinh viên đăng kí sẽ vào đây
+  dsDaDangKy: {
     type: Array,
-    require:true
+    require: true,
   },
-  dsCoTheDangKy:{
+  dsCoTheDangKy: {
     type: Array,
-    require:true
+    require: true,
   },
-  author:{
-    type:String,
-    require:true
+  author: {
+    type: String,
+    require: true,
   },
-  limit:{
-    type :String,
-    default: 'all'
+  limit: {
+    type: String,
+    default: "all",
   },
-  date:{
+  date: {
     type: String,
   },
   time: {
-    type: String
+    type: String,
   },
   specialSeat: {
     type: Array,

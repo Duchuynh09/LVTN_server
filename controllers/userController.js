@@ -17,7 +17,36 @@ const getAllUser = async (req, res) => {
     res.status(500);
   }
 };
+const getOneUser = async (req, res) => {
+  const { email } = req.params;
+  try {
+    const user = await users.findOne({ email: email });
+    const data = {
+      name: user.name,
+      idClass: user.idClass,
+      idUser: user.idUser,
+      major: user.major,
+      department: user.department,
+    };
+    res.status(200).json({ message: "success", data });
+  } catch (error) {
+    res.status(500);
+  }
+};
+const getAllIdUsers = async (req, res) => {
+  try {
+    const idUsers = await users.find({}, "idUser");
+    const arrIdUsers = idUsers
+      .filter((user) => user.idUser)
+      .map((user) => {
+        return { value: user.idUser };
+      });
 
+    res.status(200).json({ message: "success", arrIdUsers });
+  } catch (error) {
+    res.status(200).json({ message: "success", err: error.message });
+  }
+};
 const getAllLecturer = async (req, res) => {
   try {
     const user = await users.find({ role: "giangVien" });
@@ -49,7 +78,19 @@ const upLevelUser = async (req, res) => {
     res.status(500);
   }
 };
-
+const updateProfile = async (req, res, next) => {
+  try {
+    const { email, idUser, ...data } = req.body;
+    const user = await users.findOneAndUpdate(
+      { email },
+      { idUser: idUser, ...data },
+      { new: true }
+    );
+    res.status(200).json({ user, message: "success" });
+  } catch (error) {
+    res.status(200).json({ message: error });
+  }
+};
 const delUser = async (req, res) => {
   try {
     const { email } = req.body;
@@ -93,12 +134,12 @@ const compareUser = async (req, res) => {
       },
       process.env.SECRET_KEY
     );
-
     return res.status(200).json({
       state: "success",
       token: accessToken,
       user: {
         email,
+        id: user._id,
         role: user.role,
       },
     });
@@ -129,11 +170,15 @@ const getFeedBack = async (req, res) => {
 };
 
 export {
+  getAllIdUsers,
   createUser,
   feedBack,
   compareUser,
   getAllLecturer,
   getAllUser,
-  upLevelUser,getFeedBack,
+  upLevelUser,
+  getFeedBack,
   delUser,
+  updateProfile,
+  getOneUser,
 };
