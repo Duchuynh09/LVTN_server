@@ -15,6 +15,7 @@ import {
   getEventsMake,
   softList,
   generateFile,
+  getDsNhaTaiTro,
 } from "../controllers/dssvController.js";
 import {
   checkUserToken,
@@ -26,10 +27,9 @@ const router = express.Router();
 
 router.get("/dssvCoTheDangKy/:id", checkUserToken, getDssvCoTheDangKy);
 router.get("/dssvDaDangKy/:id", checkUserToken, getDssvDaDangKy);
+router.get("/getDsNhaTaiTro/:id", checkUserToken, getDsNhaTaiTro);
 
-router.post("/getEventsJoin", checkUserToken,
-getEventsJoin
-);
+router.post("/getEventsJoin", checkUserToken, getEventsJoin);
 router.post("/getEventsMake", checkLecturerToken, getEventsMake);
 
 router.post("/softList/:id", softList);

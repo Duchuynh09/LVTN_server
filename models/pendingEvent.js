@@ -3,19 +3,19 @@ import mongoose from "mongoose";
 const schema = mongoose.Schema({
   name: {
     type: String,
-    require: true,
+    required: true,
   },
   dsDaDangKy: {
     type: Array,
-    require: true,
+    required: true,
   },
   dsCoTheDangKy: {
     type: Array,
-    require: true,
+    required: true,
   },
   author: {
     type: String,
-    require: true,
+    required: true,
   },
   limit: {
     type: String,
@@ -30,6 +30,28 @@ const schema = mongoose.Schema({
   specialSeat: {
     type: Array,
   },
+  sponsors: [
+    {
+      _id: false,
+      sponsor: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Sponsor",
+      },
+    },
+  ],
+  devices: [
+    {
+      _id: false,
+      device: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Device",
+      },
+      quantity: {
+        type: Number,
+        required: true,
+      },
+    },
+  ],
 });
 
 export const pendingEventModel = mongoose.model(

@@ -7,6 +7,9 @@ import { users } from "../models/user.js";
 import { sendMail } from "./sendMailController.js";
 import { admins } from "../models/admins.js";
 import { readFilePDF } from "../service/handleFilePDF.js";
+import { postModel } from "../models/posts.js";
+import { ObjectId } from "mongodb";
+
 // import { openDssv } from "../service/handleFileTxt.js";
 
 const getDssvCoTheDangKy = async (req, res) => {
@@ -29,7 +32,6 @@ const getDssvDaDangKy = async (req, res) => {
     if (idReq === "null" || idReq === "undefined")
       return res.status(200).json({ name: "null", data: [] });
     const ds = await eventModel.findById(idReq);
-
     return res.status(200).json({
       name: ds.name,
       data: ds.dsDaDangKy,
@@ -39,11 +41,30 @@ const getDssvDaDangKy = async (req, res) => {
     return res.status(500);
   }
 };
-
+const getDsNhaTaiTro = async (req, res) => {
+  try {
+    const idReq = req.params.id;
+    if (idReq === "null" || idReq === "undefined")
+      return res.status(200).json({ name: "null", data: [] });
+    const ds = await eventModel
+      .findById(idReq)
+      .populate({ path: "sponsors", populate: { path: "sponsor" } });
+    return ds
+      ? res.status(200).json({
+          name: ds.name,
+          data: ds.sponsors,
+        })
+      : res.status(404).json({ name: ds });
+  } catch (error) {
+    return res.status(500);
+  }
+};
 const getEvents = async (req, res) => {
   try {
-    const ds = await eventModel.find();
-
+    const ds = await eventModel
+      .find()
+      .populate({ path: "devices", populate: { path: "device" } })
+      .populate({ path: "sponsors", populate: { path: "sponsor" } });
     return res.status(200).json({ data: ds });
   } catch (error) {
     return res.status(500);
@@ -54,8 +75,10 @@ const getEventById = async (req, res) => {
   const idReq = req.params.id;
   // if(idReq === 'null') return res.status(204).json({ message:'failure' });
   try {
-    const ds = await eventModel.findById(idReq);
-    // console.log(ds);
+    const ds = await eventModel
+      .findById(idReq)
+      .populate({ path: "devices", populate: { path: "device" } })
+      .populate({ path: "sponsors", populate: { path: "sponsor" } });
     if (!ds) return res.status(400).json({ state: "failure" });
 
     return res.status(200).json({ state: "success", data: ds });
@@ -66,8 +89,9 @@ const getEventById = async (req, res) => {
 
 const getPendingEvents = async (req, res) => {
   try {
-    const ds = await pendingEventModel.find();
-
+    const ds = await pendingEventModel
+      .find()
+      .populate({ path: "devices", populate: { path: "device" } });
     return res.status(200).json({ data: ds });
   } catch (error) {
     return res.status(500);
@@ -77,7 +101,6 @@ const getPendingEvents = async (req, res) => {
 const createEvent = async (req, res) => {
   try {
     const idReq = req.params.id;
-
     const event = await pendingEventModel.findById(idReq);
     const user = await users.findOne({ email: event.author });
     const admin = await admins.findOne({ email: event.author });
@@ -90,6 +113,8 @@ const createEvent = async (req, res) => {
       date: event.date,
       time: event.time,
       specialSeat: event.specialSeat,
+      devices: event.devices,
+      sponsors: event.sponsors,
     });
     const evnt = await evt.save(); // luu event vua tao
     const { _id, ...restData } = evnt;
@@ -138,8 +163,15 @@ const createEvent = async (req, res) => {
 
 const createPendingEvent = async (req, res) => {
   try {
-    const { name, author, limit, date, time, specialSeat } = req.body;
-
+    const { name, author, limit, date, time, specialSeat, devices, sponsors } =
+      req.body;
+    const extraDevices = await devices.map((device) => ({
+      device: device.key,
+      quantity: device.quantity,
+    }));
+    const extraSponsors = await sponsors.map((sponsor) => ({
+      sponsor: sponsor.key,
+    }));
     const data = {
       name: name,
       dsCoTheDangKy: "all",
@@ -149,6 +181,8 @@ const createPendingEvent = async (req, res) => {
       date: date,
       time: time,
       specialSeat: specialSeat,
+      devices: extraDevices,
+      sponsors: extraSponsors,
     };
     if (limit !== "all") {
       data.dsCoTheDangKy = []; // code them phan get du lieu de vao mang
@@ -165,7 +199,10 @@ const deleteEvent = async (req, res) => {
   try {
     const idReq = req.params.id;
     const ds = await eventModel.findByIdAndDelete(idReq);
-
+    // Xóa post về sự kiện
+    await postModel.findOneAndDelete({
+      event: new ObjectId(ds._id),
+    });
     // xóa sự kiện này trong mục tham gia của các user
     ds?.dsDaDangKy.forEach(async (item) => {
       const user = await users.findOne({ email: item.email });
@@ -174,7 +211,7 @@ const deleteEvent = async (req, res) => {
         return evt.email !== user.email;
       });
 
-      await users.findByIdAndUpdate(
+      await users.findOneAndUpdate(
         { email: item.email },
         {
           eventsJoin: arrUpdate,
@@ -222,7 +259,6 @@ const deletePendingEvent = async (req, res) => {
 //     res.status(500).json({ state: "failure" });
 //   }
 // };
-
 const getMaDonVi = (item, date) => {
   let data = item.slice(0, item.indexOf(date));
   if (data.includes("CA")) {
@@ -456,6 +492,7 @@ const softList = async (req, res) => {
 };
 
 export {
+  getDsNhaTaiTro,
   getDssvCoTheDangKy,
   generateFile,
   softList,

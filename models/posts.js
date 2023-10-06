@@ -8,7 +8,7 @@ const schema = mongoose.Schema(
     },
     title: {
       type: String,
-      require: true,
+      required: true,
     },
     img: {
       type: Object,

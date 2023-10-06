@@ -38,7 +38,7 @@ const getMaDonVi = (item, date) => {
 };
 
 // MỞ DANH SÁCH SV ĐƯỢC ĐĂNG KÍ
-const openDssv =  (date, nameFile) => {
+const openDssv = (date, nameFile) => {
   const dssv = [];
   var buf = new Buffer.alloc(1024 * 17);
 
@@ -47,7 +47,7 @@ const openDssv =  (date, nameFile) => {
       return console.error(err);
     }
     console.log("File duoc mo thanh cong!");
-    fs.read(f , buf, 0, 1024 * 17, 0, function (err, bytes) {
+    fs.read(f, buf, 0, 1024 * 17, 0, function (err, bytes) {
       if (err) {
         console.log(err);
       }
@@ -68,7 +68,7 @@ const openDssv =  (date, nameFile) => {
       }
     });
   });
-  console.log(dssv);
+
   return dssv;
 };
 

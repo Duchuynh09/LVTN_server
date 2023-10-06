@@ -49,6 +49,7 @@ const compareAdmin = async (req, res) => {
       state: "success",
       token: accessToken,
       user: {
+        id: admin._id,
         email,
         isAdmin: admin.isAdmin,
         level: admin.level,
