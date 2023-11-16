@@ -5,6 +5,10 @@ const schema = mongoose.Schema({
     type: String,
     required: true,
   },
+  type: {
+    type: String,
+    required: true,
+  },
   dsDaDangKy: {
     type: Array,
     required: true,

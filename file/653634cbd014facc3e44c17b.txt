@@ -1,0 +1,370 @@
+                 DANH SÁCH SINH VIÊN TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY ĐỢT 1 LẦN 2 - NĂM 2023
+     TT Đơn vị QĐ  Ngày ký   MSSV         Họ tên        Ngày sinh Nữ    Lớp                   Tên ngành
+       1    DA   1150 27/03/2023 B1603908 Huỳnh Thành Nam           19/03/1998      DA1666A2  Công nghệ sinh học
+       2    DA   1150 27/03/2023 B1800292 Nguyễn Thị Mỹ Hạnh        13/10/2000  N  NN1808A3  Công nghệ thực phẩm
+       3    DA   1150 27/03/2023 B1800386 Nguyễn Thị Anh Thư         15/09/2000  N  NN1808A3  Công nghệ thực phẩm
+       4    DA   1150 27/03/2023 B1800441 Huỳnh Danh                09/06/1998      NN1808A2  Công nghệ thực phẩm
+       5    DA   1150 27/03/2023 B1800604 Nguyễn Lê Thanh Cao        05/05/2000      NN1808F1  Công nghệ thực phẩm (chương trình chất lượng cao)
+       6    DA   1150 27/03/2023 B1800608 Đoàn Ngọc Thạch Kỳ        09/03/2000  N   NN1808F1  Công nghệ thực phẩm (chương trình chất lượng cao)
+       7    DA   1150 27/03/2023 B1803963 Phạm Tấn Phúc             24/02/2000      DA1866A2  Công nghệ sinh học
+       8    DA   1150 27/03/2023 B1805603 Trần Võ Minh Thư           06/05/2000  N   DA1866T1  Công nghệ sinh học (chương trình tiên tiến)
+       9    DA   1150 27/03/2023 B1808096 Nguyễn Quế Anh            30/05/2000  N   NN1808F1  Công nghệ thực phẩm (chương trình chất lượng cao)
+      10   DA   1150 27/03/2023 B1811451 Nguyễn Lê Thanh Bạch       05/05/2000      NN1808F1  Công nghệ thực phẩm (chương trình chất lượng cao)
+      11   DA   1150 27/03/2023 B1812534 Phạm Duy Sang             26/11/2000      NN1808F1  Công nghệ thực phẩm (chương trình chất lượng cao)
+      12   DA   1150 27/03/2023 B1812535 Nguyễn Minh Thịnh          01/03/2000      NN1808F1  Công nghệ thực phẩm (chương trình chất lượng cao)
+      13   DA   1150 27/03/2023 B1904231 Nguyễn Văn Hà             07/03/2001      DA1966A1  Công nghệ sinh học
+      14   DA   1150 27/03/2023 B1904317 Dương Mỹ Nhi              10/05/2001  N  DA1966A3  Công nghệ sinh học
+      15   DA   1150 27/03/2023 B1904476 Nguyễn Thị Ngọc Hạnh       17/11/2001  N  DA1966A2  Công nghệ sinh học
+      16   DA   1150 27/03/2023 B1904505 Nguyễn Anh Khoa           11/06/2001      DA1966A2  Công nghệ sinh học
+      17   DA   1150 27/03/2023 B1904553 Lý Trọng Nguyên            08/04/2001      DA1966A4  Công nghệ sinh học
+      18    DI   1151 27/03/2023 B1704796 Nguyễn Thị Hoàng Diễm      16/03/1999  N   DI1796A2  Kỹ thuật phần mềm
+      19    DI   1151 27/03/2023 B1704850 Lê Quang Thắng            16/01/1999      DI1796A2  Kỹ thuật phần mềm
+      20    DI   1151 27/03/2023 B1706478 Lê Hoàng Kha              09/04/1998      DI17V7A1  Công nghệ thông tin
+      21    DI   1151 27/03/2023 B1706479 Nguyễn Nhựt Kha           24/10/1999      DI17V7A5  Công nghệ thông tin
+      22    DI   1151 27/03/2023 B1706724 Châu Nhựt Minh            15/07/1999      DI17Y1A1  Công nghệ thông tin
+      23    DI   1151 27/03/2023 B1709380 Nguyễn Khoa Văn           07/01/1999      DI17Y9A2  Truyền thông và mạng máy tính
+      24    DI   1151 27/03/2023 B1709533 Phan Điền Hào              10/04/1999      DI17Z6A1  Khoa học máy tính
+      25    DI   1151 27/03/2023 B1709578 Nguyễn Ngọc Lam Tường     10/03/1999  N   DI17Z6A1  Khoa học máy tính
+      26    DI   1151 27/03/2023 B1709594 Trần Minh Hoàng           08/02/1999      DI17Z6A2  Khoa học máy tính
+      27    DI   1151 27/03/2023 B1710356 Huỳnh Trịnh Tiến Vinh       18/10/1999      DI17Z6A1  Khoa học máy tính
+      28    DI   1151 27/03/2023 B1805618 Nguyễn Thị Kim Cúc         13/03/2000  N   DI1895A1  Hệ thống thông tin
+      29    DI   1151 27/03/2023 B1805682 Nguyễn Triệu Duy           25/02/2000      DI1895A2  Hệ thống thông tin
+      30    DI   1151 27/03/2023 B1805695 Lê Ngọc Linh               06/08/2000      DI1895A2  Hệ thống thông tin
+      31    DI   1151 27/03/2023 B1805780 Võ Trung Kiên              19/12/2000      DI1896A1  Kỹ thuật phần mềm
+      32    DI   1151 27/03/2023 B1805795 Nguyễn Minh Nhã           21/08/2000      DI1896A1  Kỹ thuật phần mềm
+      33    DI   1151 27/03/2023 B1805818 Ngô Tấn Thiệu              18/05/2000      DI1896A1  Kỹ thuật phần mềm
+
+                                                                            2
+     TT Đơn vị QĐ  Ngày ký   MSSV         Họ tên        Ngày sinh Nữ    Lớp                   Tên ngành
+      34    DI   1151 27/03/2023 B1805855 Trần Ngọc Hà               10/02/2000  N   DI1896A3 Kỹ thuật phần mềm
+      35    DI   1151 27/03/2023 B1805876 Huỳnh Trọng Khiêm         20/06/2000      DI1896A2  Kỹ thuật phần mềm
+      36    DI   1151 27/03/2023 B1805908 Trịnh Mạch Huy Phú         22/03/2000      DI1896A3  Kỹ thuật phần mềm
+      37    DI   1151 27/03/2023 B1807569 Nguyễn Thị Cẩm Linh        22/12/2000  N   DI18T9A1  Mạng máy tính và truyền thông dữ liệu
+      38    DI   1151 27/03/2023 B1807608 Nguyễn Trọng Văn          24/07/2000      DI18T9A1  Mạng máy tính và truyền thông dữ liệu
+      39    DI   1151 27/03/2023 B1807645 Phan Văn Vương Linh        28/10/2000      DI18T9A2  Mạng máy tính và truyền thông dữ liệu
+      40    DI   1151 27/03/2023 B1809171 Diệp Xuân Quang           03/01/2000      DI18V7A1  Công nghệ thông tin
+      41    DI   1151 27/03/2023 B1809336 Nguyễn Công Đoàn Dự       27/10/2000      DI18V7A3  Công nghệ thông tin
+      42    DI   1151 27/03/2023 B1809415 Lê Thu Tiền                05/05/2000  N   DI18V7A5  Công nghệ thông tin
+      43    DI   1151 27/03/2023 B1809451 Lê Tấn Đức                12/12/1999      DI18V7A4  Công nghệ thông tin
+      44    DI   1151 27/03/2023 B1809457 Phan Thị Mỹ Hằng           18/01/2000  N   DI18V7A4  Công nghệ thông tin
+      45    DI   1151 27/03/2023 B1812266 Phạm Trung Hậu            14/04/2000      DI18Z6A1  Khoa học máy tính
+      46    DI   1151 27/03/2023 B1812356 Trương Thành Long          10/12/2000      DI18Z6A2  Khoa học máy tính
+      47    DI   1151 27/03/2023 B1812393 Cao Thanh Tuấn            05/11/2000      DI18Z6A2  Khoa học máy tính
+      48    DI   1151 27/03/2023 C1700026 Võ Thị Hồng Thư           06/06/1996  N   DI17V7A2  Công nghệ thông tin
+      49    FL   1152 27/03/2023 B1800981 Lê Thị Mỹ An              03/08/2000  N   FL18V1F1  Ngôn ngữ Anh (chương trình chất lượng cao)
+      50    FL   1152 27/03/2023 B1808403 Trần Quốc Toàn             25/06/2000      FL18V1A2  Ngôn ngữ Anh
+      51    FL   1152 27/03/2023 B1808506 Nguyễn Chúc Phương        05/05/2000  N  FL18V1A2  Ngôn ngữ Anh
+      52    FL   1152 27/03/2023 B1812446 Nguyễn Trần Thanh Thảo     27/01/2000  N   FL18Z9A1  Ngôn ngữ Pháp
+      53    FL   1152 27/03/2023 C1900012 Lê Phương Nga             07/08/1997  N   FL19V1L1  Ngôn ngữ Anh
+      54   HG   1153 27/03/2023 B1510659 Phan Hoàng Liêm           16/04/1997      HG15U7A1 Kinh doanh nông nghiệp
+      55   HG   1153 27/03/2023 B1701632 Trương Hoàng Sơn          09/10/1999      HG1722A2  Quản trị kinh doanh
+      56   HG   1153 27/03/2023 B1709998 Trần Hoàng Huy            29/06/1999      HG17U7A1 Kinh doanh nông nghiệp
+      57   HG   1153 27/03/2023 B1802118 Trần Ngọc Cẩm             11/12/2000  N  HG1823A1  Kinh tế nông nghiệp
+      58   HG   1153 27/03/2023 B1807479 Bùi Minh Thái              31/10/2000      HG18T7A1 Kỹ thuật xây dựng
+      59   HG   1153 27/03/2023 B1807487 Ngô Minh Thông            10/07/2000      HG18T7A1 Kỹ thuật xây dựng
+      60   HG   1153 27/03/2023 B1808210 Trương Hoàng Kha          19/07/2000      HG18U7A1 Kinh doanh nông nghiệp
+      61   HG   1153 27/03/2023 B1808538 Nguyễn Mã Minh Đăng       07/12/2000      HG18V1A1 Ngôn ngữ Anh
+      62   HG   1153 27/03/2023 B1809605 Lê Công Lý                05/07/2000      HG18V7A1 Công nghệ thông tin
+      63   HG   1153 27/03/2023 B1902083 Đinh Nguyễn Minh Anh      28/02/2001  N  HG1922A1  Quản trị kinh doanh
+      64   HG   1153 27/03/2023 B1902135 Trần Thị Như Thủy          27/08/2001  N  HG1922A1  Quản trị kinh doanh
+      65   HG   1153 27/03/2023 B1902141 Nguyễn Thị Kiều Trang       22/12/2001  N  HG1922A1  Quản trị kinh doanh
+      66   HG   1153 27/03/2023 B1902157 Lê Nhất Bình               28/04/2001  N  HG1922A2  Quản trị kinh doanh
+      67   HG   1153 27/03/2023 B1902174 Lê An Khương              06/06/2001  N  HG1922A2  Quản trị kinh doanh
+      68   HG   1153 27/03/2023 B1904052 Sơn Ngọc Hải               27/03/2001      HG1963A1  Luật
+
+                                                                            3
+     TT Đơn vị QĐ  Ngày ký   MSSV         Họ tên        Ngày sinh Nữ    Lớp                   Tên ngành
+      69   HG   1153 27/03/2023 B1904086 Đào Phan Kim Quyên        05/12/2001  N  HG1963A1 Luật
+      70   HG   1153 27/03/2023 B1904114 Võ Lương Hoàng Bảo        29/04/2001      HG1963A2  Luật
+      71   HG   1153 27/03/2023 B1904178 Danh Tính                 19/05/2001      HG1963A2  Luật
+      72   HG   1153 27/03/2023 B1912357 Võ Thị Ngọc Giàu           08/03/2001  N  HG19W8A1 Việt Nam học
+      73   HG   1153 27/03/2023 B1912413 Ngô Thị Tốt                10/09/2001  N  HG19W8A1 Việt Nam học
+      74   KH   1154 27/03/2023 B1804310 Trần Thị Hồng An           03/03/2000  N  KH1869A1  Hóa học
+      75   KH   1154 27/03/2023 B1804365 Trần Thị Thiên Nga          07/02/2000  N  KH1869A1  Hóa học
+      76   KH   1154 27/03/2023 B1804386 Lê Thúy Quỳnh             19/01/2000  N  KH1869A1  Hóa học
+      77   KH   1154 27/03/2023 B1804391 Nguyễn Ngọc Thanh         17/09/2000  N  KH1869A2  Hóa học
+      78   KH   1154 27/03/2023 B1804414 Đinh Lê Quế Trâm           27/09/2000  N  KH1869A2  Hóa học
+      79   KH   1154 27/03/2023 B1804416 Nguyễn Ngọc Bích Trâm      08/11/2000  N  KH1869A1  Hóa học
+      80   KH   1154 27/03/2023 B1804441 Thái Thảo Vy               18/07/2000  N  KH1869A2  Hóa học
+      81   KT   1155 27/03/2023 B1506900 Nguyễn Ngọc Phi Loan       20/10/1996  N  KT15V5A2 Kiểm toán
+      82   KT   1155 27/03/2023 B1507853 Trần Thị Phương Quyên      27/01/1997  N  KT15W3A2 Kinh doanh thương mại
+      83   KT   1155 27/03/2023 B1601851 Phan Thanh Nhã            26/11/1997      KT1623A1  Kinh tế nông nghiệp
+      84   KT   1155 27/03/2023 B1610839 Trần Ngọc Hân              23/03/1998  N  KT16W3A2 Kinh doanh thương mại
+      85   KT   1155 27/03/2023 B1701335 Bùi Đình Duy               05/06/1999      KT1721A2  Tài chính - Ngân hàng
+      86   KT   1155 27/03/2023 B1706205 Phạm Thị Minh Thư         25/04/1999  N  KT17V5A1 Kiểm toán
+      87   KT   1155 27/03/2023 B1707758 Nguyễn Bảo Nghi           11/11/1999  N  KT17W4F2 Kinh doanh quốc tế (chương trình chất lượng cao)
+      88   KT   1155 27/03/2023 B1801569 Bùi Thị Tuyết Trinh          19/07/2000  N   KT1821A2  Tài chính - Ngân hàng
+      89   KT   1155 27/03/2023 B1801586 Lê Gia Bảo                 22/04/2000  N  KT18W4F1 Kinh doanh quốc tế (chương trình chất lượng cao)
+      90   KT   1155 27/03/2023 B1801654 Nguyễn Lâm Mỹ Quỳnh      15/11/2000  N   KT1822A1  Quản trị kinh doanh
+      91   KT   1155 27/03/2023 B1801752 Võ Thị Yến Nhi             13/05/2000  N   KT1822A2  Quản trị kinh doanh
+      92   KT   1155 27/03/2023 B1801820 Nguyễn Huy Hoàng          04/05/2000      KT1821A9  Tài chính - Ngân hàng
+      93   KT   1155 27/03/2023 B1802094 Trần Ngọc Trân             22/02/2000  N   KT1823A2  Kinh tế nông nghiệp
+      94   KT   1155 27/03/2023 B1808668 Phan Minh Hưng            22/08/2000      KT18W4F1 Kinh doanh quốc tế (chương trình chất lượng cao)
+      95   KT   1155 27/03/2023 B1808777 Lê Xuân Khôi              21/09/2000      KT18V5A1 Kiểm toán
+      96   KT   1155 27/03/2023 B1808863 Bùi Trung Nhân             24/08/2000      KT18V5A2 Kiểm toán
+      97   KT   1155 27/03/2023 B1810535 Nguyễn Minh               14/10/2000     KT18W4A1 Kinh doanh quốc tế
+      98   KT   1155 27/03/2023 B1810661 Lương Hoàng Quỳnh Anh     10/04/2000  N  KT18W4F1 Kinh doanh quốc tế (chương trình chất lượng cao)
+      99   KT   1155 27/03/2023 B1810673 Nguyễn Chí Dũng           09/11/2000      KT18W4F1 Kinh doanh quốc tế (chương trình chất lượng cao)
+      100   KT   1155 27/03/2023 B1810709 Nguyễn Đặng Vân Ngọc      21/11/2000  N  KT18W4F1 Kinh doanh quốc tế (chương trình chất lượng cao)
+      101   KT   1155 27/03/2023 B1810712 Trần Khánh Ngọc           15/12/2000  N  KT18W4F1 Kinh doanh quốc tế (chương trình chất lượng cao)
+      102   KT   1155 27/03/2023 B1810739 Võ Đình Phương Thanh       17/04/2000  N  KT18W4F1 Kinh doanh quốc tế (chương trình chất lượng cao)
+      103   KT   1155 27/03/2023 B1810747 Phan Đặng Anh Thư         22/03/2000  N  KT18W4F1 Kinh doanh quốc tế (chương trình chất lượng cao)
+
+                                                                            4
+     TT Đơn vị QĐ  Ngày ký   MSSV         Họ tên        Ngày sinh Nữ    Lớp                   Tên ngành
+      104   KT   1155 27/03/2023 B1810756 Nguyễn Ngọc Quế Trâm      17/03/2000  N  KT18W4F3 Kinh doanh quốc tế (chương trình chất lượng cao)
+      105   KT   1155 27/03/2023 B1810758 Trương Ngọc Trân           10/08/2000  N  KT18W4F1 Kinh doanh quốc tế (chương trình chất lượng cao)
+      106   KT   1155 27/03/2023 B1812576 Nguyễn Thị Anh Thư         17/09/2000  N   KT1822A9 Quản trị kinh doanh
+      107   KT   1155 27/03/2023 B1901495 Huỳnh Thị Ngọc Hà          27/08/2001  N   KT1920A1  Kế toán
+      108   KT   1155 27/03/2023 B1901554 Lê Thị Trâm                26/06/2001  N   KT1920A1  Kế toán
+      109   KT   1155 27/03/2023 B1901562 Lê Thị Mộng Tường         16/02/2001  N   KT1920A1  Kế toán
+      110   KT   1155 27/03/2023 B1901679 Lê Hải Huy                 04/05/2001      KT1921A1  Tài chính - Ngân hàng
+      111   KT   1155 27/03/2023 B1901790 Đào Như Nguyệt            23/01/2001  N   KT1921A2  Tài chính - Ngân hàng
+      112   KT   1155 27/03/2023 B1901812 Trần Anh Thư              27/10/2001  N   KT1921A2  Tài chính - Ngân hàng
+      113   KT   1155 27/03/2023 B1901972 Hồ Thị Bích Vy             22/01/2000  N   KT1922A3  Quản trị kinh doanh
+      114   KT   1155 27/03/2023 B1901998 Nguyễn Ngọc Trúc Hân       07/07/2001  N   KT1922A2  Quản trị kinh doanh
+      115   KT   1155 27/03/2023 B1902002 Mai Thị Ngọc Huyền         24/07/2001  N   KT1922A2  Quản trị kinh doanh
+      116   KT   1155 27/03/2023 B1902014 Huỳnh Giao Linh            21/05/2001  N   KT1922A2  Quản trị kinh doanh
+      117   KT   1155 27/03/2023 B1902018 Trần Nhựt Linh             16/05/2001  N   KT1922A2  Quản trị kinh doanh
+      118   KT   1155 27/03/2023 B1902050 Phạm Huỳnh Sỉ             14/09/2001      KT1922A3  Quản trị kinh doanh
+      119   KT   1155 27/03/2023 B1902053 Trần Thành Thắng           26/05/2001      KT1922A3  Quản trị kinh doanh
+      120   KT   1155 27/03/2023 B1902233 Nguyễn Quang Bảo          25/01/2001      KT1923A1  Kinh tế nông nghiệp
+      121   KT   1155 27/03/2023 B1902274 Nguyễn Thị Như Ngọc        06/10/2001  N   KT1923A1  Kinh tế nông nghiệp
+      122   KT   1155 27/03/2023 B1902307 Nguyễn Ngọc Anh Thư       25/08/2001  N   KT1923A1  Kinh tế nông nghiệp
+      123   KT   1155 27/03/2023 B1906152 Trần Thị Kim Thoa          13/10/2001  N   KT1990A1  Kinh tế tài nguyên thiên nhiên
+      124   KT   1155 27/03/2023 B1906232 Nguyễn Huỳnh Ngọc Yến     19/08/2001  N   KT1990A2  Kinh tế tài nguyên thiên nhiên
+      125   KT   1155 27/03/2023 B1909624 Nguyễn Đinh Hoàng Thế      30/08/2001      KT19V5A2 Kiểm toán
+      126   KT   1155 27/03/2023 B1910957 Trần Thị Huyền Trân         06/01/2001  N  KT19W1A1 Kinh tế
+      127   KT   1155 27/03/2023 B1910991 Trần Sơn Khê               06/05/2001     KT19W1A2 Kinh tế
+      128   KT   1155 27/03/2023 B1911063 Lâm Văn Quý Em           02/10/2001     KT19W2A1 Quản trị dịch vụ du lịch và lữ hành
+      129   KT   1155 27/03/2023 B1911100 Lê Kim Ngân               20/01/2001  N  KT19W2A1 Quản trị dịch vụ du lịch và lữ hành
+      130   KT   1155 27/03/2023 B1911114 Nguyễn Huỳnh Như          11/04/2001  N  KT19W2A1 Quản trị dịch vụ du lịch và lữ hành
+      131   KT   1155 27/03/2023 B1911160 Nguyễn Thúy Vi            01/01/2001  N  KT19W2A3 Quản trị dịch vụ du lịch và lữ hành
+      132   KT   1155 27/03/2023 B1911193 Nguyễn Thị Ngọc Hân        10/02/2001  N  KT19W2A2 Quản trị dịch vụ du lịch và lữ hành
+      133   KT   1155 27/03/2023 B1911217 Lý Ái My                  30/10/2001  N  KT19W2A2 Quản trị dịch vụ du lịch và lữ hành
+      134   KT   1155 27/03/2023 B1911228 Nguyễn Lê Thái Nguyên      12/12/2001  N  KT19W2A2 Quản trị dịch vụ du lịch và lữ hành
+      135   KT   1155 27/03/2023 B1911231 Thạch Hoàng Nhật           19/01/2001     KT19W2A2 Quản trị dịch vụ du lịch và lữ hành
+      136   KT   1155 27/03/2023 B1911247 Nguyễn Kim Như Quỳnh      06/03/2001  N  KT19W2A2 Quản trị dịch vụ du lịch và lữ hành
+      137   KT   1155 27/03/2023 B1911252 Thái Thị Bích Thảo          20/11/2001  N  KT19W2A3 Quản trị dịch vụ du lịch và lữ hành
+      138   KT   1155 27/03/2023 B1911299 Trần Minh Dương           24/01/2001     KT19W3A1 Kinh doanh thương mại
+
+                                                                            5
+     TT Đơn vị QĐ  Ngày ký   MSSV         Họ tên        Ngày sinh Nữ    Lớp                   Tên ngành
+      139   KT   1155 27/03/2023 B1911353 Hà Thị Mỹ Trinh            24/12/2001  N  KT19W3A1 Kinh doanh thương mại
+      140   KT   1155 27/03/2023 B1911354 Nguyễn Thị Hồng Trúc       06/07/2001  N  KT19W3A1 Kinh doanh thương mại
+      141   KT   1155 27/03/2023 B1911363 Nguyễn Tường Vy           23/01/2001  N  KT19W3A1 Kinh doanh thương mại
+      142   KT   1155 27/03/2023 B1911372 Nguyễn Thảo Duy           19/09/2000  N  KT19W3A2 Kinh doanh thương mại
+      143   KT   1155 27/03/2023 B1911385 Nguyễn Kim Lựa            18/02/2001  N  KT19W3A2 Kinh doanh thương mại
+      144   KT   1155 27/03/2023 B1911415 Trịnh Thái Sơn Quỳnh        30/07/2001  N  KT19W3A2 Kinh doanh thương mại
+      145   KT   1155 27/03/2023 B1911462 Danh Hưởng                09/03/2001     KT19W4A1 Kinh doanh quốc tế
+      146   KT   1155 27/03/2023 B1911470 Phạm Yến Linh             01/06/2001  N  KT19W4A1 Kinh doanh quốc tế
+      147   KT   1155 27/03/2023 B1911478 Nguyễn Hoài Nam           24/07/2001     KT19W4A1 Kinh doanh quốc tế
+      148   KT   1155 27/03/2023 B1911486 Trần Thị Thanh Nhã         03/10/2001  N  KT19W4A1 Kinh doanh quốc tế
+      149   KT   1155 27/03/2023 B1911491 Nguyễn Huỳnh Như          09/10/2001  N  KT19W4A1 Kinh doanh quốc tế
+      150   KT   1155 27/03/2023 B1911551 Trần Thị Bích Liễu          13/11/2001  N  KT19W4A2 Kinh doanh quốc tế
+      151   KT   1155 27/03/2023 B1911561 Lưu Thị Nga                07/08/2001  N  KT19W4A2 Kinh doanh quốc tế
+      152   KT   1155 27/03/2023 B1911562 Bùi Triệu Ngân             15/12/2000  N  KT19W4A2 Kinh doanh quốc tế
+      153   KT   1155 27/03/2023 B1911592 Kim Thị Bé Trang           01/12/2001  N  KT19W4A2 Kinh doanh quốc tế
+      154   KT   1155 27/03/2023  S1900046 Lê Hùng Minh              04/02/1994      KT1921A1  Tài chính - Ngân hàng
+      155   LK   1156 27/03/2023 B1604716 Nguyễn Thanh Nhả          19/03/1997      LK1663A9  Luật
+      156   LK   1156 27/03/2023 B1702238 Phan Phú Nghĩa             11/01/1998      LK1765A2  Luật
+      157   LK   1156 27/03/2023 B1802607 Lâm Thị Thúy Vy           29/10/2000  N   LK1864A2  Luật
+      158   LK   1156 27/03/2023 B1802610 Bùi Tuấn Anh              26/06/1999      LK1865A1  Luật
+      159   LK   1156 27/03/2023 B1802617 Lê Thị Chiều               19/08/2000  N   LK1864A1  Luật
+      160   LK   1156 27/03/2023 B1802683 Nguyễn Trung Thành         12/10/2000      LK1864A1  Luật
+      161   LK   1156 27/03/2023 B1902892 Nguyễn Vũ Luân            16/07/2000      LK1965A2  Luật
+      162   LK   1156 27/03/2023 B1903128 Lê Ngọc Nhi                17/09/2001  N   LK1963A2  Luật
+      163   ML   1157 27/03/2023 B1707123 Thạch Hoàng Bảo Trân       18/10/1999  N  ML17V9A1 Chính trị học
+      164   MT   1158 27/03/2023 B1506806 Cao Ngọc Phương Linh       09/08/1997  N  MT15V4A2 Lâm sinh
+      165   MT   1158 27/03/2023 B1606467 Thị Mỹ Duyên              21/06/1998  N  MT16V4A1 Lâm sinh
+      166   MT   1158 27/03/2023 B1702920 Quách Yến Linh             01/02/1999  N  MT1757A1  Kỹ thuật môi trường
+      167   MT   1158 27/03/2023 B1702992 Lê Hoàng Duy Long         17/11/1999      MT1757A2  Kỹ thuật môi trường
+      168   MT   1158 27/03/2023 B1705416 Nguyễn Trọng Quyền        07/05/1999     MT17U2A1 Kỹ thuật tài nguyên nước
+      169   MT   1158 27/03/2023 B1803740 Nguyễn Minh Thông         06/08/2000      MT1857A2  Kỹ thuật môi trường
+      170   MT   1158 27/03/2023 B1803746 Phạm Minh Toàn            27/11/2000      MT1857A2  Kỹ thuật môi trường
+      171   MT   1158 27/03/2023 B1807763 Lưu Kim Phụng             01/02/2000  N  MT18U2A1 Kỹ thuật tài nguyên nước
+      172   MT   1158 27/03/2023 B1812947 Trần Quốc Tín              04/03/2000     MT18X7A2 Quản lý tài nguyên và môi trường
+      173   MT   1158 27/03/2023 B1902689 Nguyễn Trọng Nguyễn       08/08/2001      MT1925A2  Quản lý đất đai
+
+                                                                            6
+     TT Đơn vị QĐ  Ngày ký   MSSV         Họ tên        Ngày sinh Nữ    Lớp                   Tên ngành
+      174   MT   1158 27/03/2023 B1902719 Danh Hàng Quốc Toàn       25/08/2001      MT1925A2 Quản lý đất đai
+      175   NN   1159 27/03/2023 B1601167 Trương Hoàng Son          05/06/1998      NN1619A1  Nông học
+      176   NN   1159 27/03/2023 B1604050 Trần Thị Huyền Trang        14/04/1998  N  NN1667A1  Thú y
+      177   NN   1159 27/03/2023 B1701069 Bùi Nhật Thành             28/09/1999      NN1719A2  Nông học
+      178   NN   1159 27/03/2023 B1707010 Trần Thị Mỹ Duyên          13/12/1999  N  NN17V8A1 Sinh học ứng dụng
+      179   NN   1159 27/03/2023 B1800103 Chau So Khênh             13/10/1999      NN1873A1  Bảo vệ thực vật
+      180   NN   1159 27/03/2023 B1801119 Châu Minh Kha             03/08/2000      NN1819A1  Nông học
+      181   NN   1159 27/03/2023 B1804061 Nguyễn Cao Thùy Duyên     20/01/2000  N  NN1867A1  Thú y
+      182   NN   1159 27/03/2023 B1804068 Trương Thị Hương Giang     08/12/2000  N  NN1867A1  Thú y
+      183   NN   1159 27/03/2023 B1804071 Hồ Minh Hào               17/06/2000      NN1867A3  Thú y
+      184   NN   1159 27/03/2023 B1804095 Nguyễn Thăng Long         11/10/2000      NN1867A1  Thú y
+      185   NN   1159 27/03/2023 B1804120 Hồ Huỳnh Như              02/01/2000  N  NN1867A1  Thú y
+      186   NN   1159 27/03/2023 B1804158 Tiêu Ngọc Bảo Trân         20/12/2000  N  NN1867A3  Thú y
+      187   NN   1159 27/03/2023 B1804167 Huỳnh Thanh Tuyền         10/01/2000  N  NN1867A1  Thú y
+      188   NN   1159 27/03/2023 B1804190 Phan Khánh Duy            09/02/2000      NN1867A2  Thú y
+      189   NN   1159 27/03/2023 B1804217 Ngô Trọng Khánh           21/01/2000      NN1867A3  Thú y
+      190   NN   1159 27/03/2023 B1804261 Tăng Trần Minh Quân        16/01/2000      NN1867A2  Thú y
+      191   NN   1159 27/03/2023 B1804267 Võ Thanh Tâm              24/03/2000      NN1867A2  Thú y
+      192   NN   1159 27/03/2023 B1804478 Nguyễn Văn Duy            04/04/2000      NN1873A1  Bảo vệ thực vật
+      193   NN   1159 27/03/2023 B1804505 Nguyễn Thanh Long         06/02/2000      NN1873A1  Bảo vệ thực vật
+      194   NN   1159 27/03/2023 B1804615 Huỳnh Nhựt Tân            25/05/2000      NN1873A2  Bảo vệ thực vật
+      195   NN   1159 27/03/2023 B1804622 Trần Thị Mai Thi            27/09/2000  N  NN1873A2  Bảo vệ thực vật
+      196   NN   1159 27/03/2023 B1804670 Trần Lưu Tuấn Khang        11/05/2000      NN1873A3  Bảo vệ thực vật
+      197   NN   1159 27/03/2023 B1804672 Nguyễn Đăng Khoa          11/11/2000      NN1873A3  Bảo vệ thực vật
+      198   NN   1159 27/03/2023 B1804688 Võ Thị Kim Ngân           15/07/2000  N  NN1873A3  Bảo vệ thực vật
+      199   NN   1159 27/03/2023 B1805967 Nguyễn Đình Huy           02/01/2000      NN18S1A1  Chăn nuôi
+      200   NN   1159 27/03/2023 B1805999 Đoàn Điền Phú              28/04/2000      NN18S1A2  Chăn nuôi
+      201   NN   1159 27/03/2023 B1806047 Huỳnh Văn Đức             17/01/2000      NN18S1A2  Chăn nuôi
+      202   NN   1159 27/03/2023 B1806079 Phạm Thanh Nhàng          19/02/2000      NN18S1A2  Chăn nuôi
+      203   NN   1159 27/03/2023 B1806103 Trương Mai Tiên            07/11/2000  N  NN18S1A2  Chăn nuôi
+      204   NN   1159 27/03/2023 B1809808 Nguyễn Thị Diễm Sương      08/04/2000  N  NN18V8A1 Sinh học ứng dụng
+      205   NN   1159 27/03/2023 B1809849 Lê Nguyễn Thị Như Ý        07/12/2000  N  NN18V8A1 Sinh học ứng dụng
+      206   NN   1159 27/03/2023 B1811803 Phan Nhật Duy              05/09/2000      NN18X8A2 Khoa học cây trồng
+      207   NN   1159 27/03/2023 B1811890 Nguyễn Thu Phương         20/12/2000  N  NN18X9A1 Công nghệ rau hoa quả và cảnh quan
+      208   NN   1159 27/03/2023 B1812850 Nguyễn Phạm Ngọc Diệp     16/09/2000  N  NN18V8A1 Sinh học ứng dụng
+
+                                                                            7
+     TT Đơn vị QĐ  Ngày ký   MSSV         Họ tên        Ngày sinh Nữ    Lớp                   Tên ngành
+      209   NN   1159 27/03/2023 B1812955 Huỳnh Thị Kim An          25/11/2000  N  NN18X9A1 Công nghệ rau hoa quả và cảnh quan
+      210   NN   1159 27/03/2023 B1812956 Lăng Thị Mỹ Hạnh          13/11/2000  N  NN18X9A1 Công nghệ rau hoa quả và cảnh quan
+      211   NN   1159 27/03/2023 B1900160 Nguyễn Song Giang          26/02/2000      NN1973A2  Bảo vệ thực vật
+      212   NN   1159 27/03/2023 B1901393 Nguyễn Thanh Huy          02/02/2001      NN1919A1  Nông học
+      213   NN   1159 27/03/2023 B1905098 Võ Văn Hớn                22/10/2001      NN1973A1  Bảo vệ thực vật
+      214   NN   1159 27/03/2023 B1905195 Ngô Quốc Nam             26/07/2001      NN1973A2  Bảo vệ thực vật
+      215   NN   1159 27/03/2023 B1905227 Nguyễn Ngọc Trân           14/03/2001  N  NN1973A2  Bảo vệ thực vật
+      216   NN   1159 27/03/2023 B1905282 Trần Đào Trọng Nhân        03/01/2001      NN1973A3  Bảo vệ thực vật
+      217   NN   1159 27/03/2023 B1905306 Nguyễn Trương Nhựt Toàn    09/10/2001      NN1973A3  Bảo vệ thực vật
+      218   NN   1159 27/03/2023 B1906843 Đào Hoa Nhị               19/12/2001  N  NN19S1A1  Chăn nuôi
+      219   NN   1159 27/03/2023 C1900235 Đặng Thị Kim Ngân         15/06/1998  N   NN1967L1  Thú y
+      220   SP   1160 27/03/2023 B1406825 Châu Văn Trà               21/10/1996      SP1434A1  Sư phạm Vật lý
+      221   SP   1160 27/03/2023 B1800621 Lê Minh Đan               26/08/2000      SP1809A1  Sư phạm Hóa học
+      222   SP   1160 27/03/2023 B1808301 Lê Nguyễn Thúy Vy         16/03/2000  N   SP18U8A1  Sư phạm Tin học
+      223   TN   1161 27/03/2023 B1408769 Trần Công Hiếu             00/00/1993      TN1462A4  Kỹ thuật công trình xây dựng
+      224   TN   1161 27/03/2023 B1504275 Lê Anh Vy                 23/07/1997      TN1561A1  Kỹ thuật điện, điện tử
+      225   TN   1161 27/03/2023 B1509746 Hoàng Ngọc Long           05/01/1997      TN15Z5A1  Kỹ thuật máy tính
+      226   TN   1161 27/03/2023 B1602861 Bùi Anh Đô                20/11/1998      TN1662A2  Kỹ thuật công trình xây dựng
+      227   TN   1161 27/03/2023 B1702620 Trần Minh Hiếu             17/03/1999      TN1784A1  Kỹ thuật cơ khí
+      228   TN   1161 27/03/2023 B1705008 Trần Minh Luận             22/09/1999      TN17T2A1  Kỹ thuật công trình xây dựng
+      229   TN   1161 27/03/2023 B1705144 Phạm Trọng Nhân           19/06/1999      TN17T2A2  Kỹ thuật công trình xây dựng
+      230   TN   1161 27/03/2023 B1705821 Trần Quốc Cường           01/02/1999      TN17U9A1 Kỹ thuật công trình thủy
+      231   TN   1161 27/03/2023 B1709020 Phan Thành Lộc             10/12/1999      TN17Y6A1 Kỹ thuật cơ - điện tử
+      232   TN   1161 27/03/2023 B1709033 Tô Lộc Phiên               03/08/1999      TN17Y6A1 Kỹ thuật cơ - điện tử
+      233   TN   1161 27/03/2023 B1709185 Nguyễn Lê Nhật Tiến        01/12/1999      TN17Y8A1 Kỹ thuật điều khiển và tự động hóa
+      234   TN   1161 27/03/2023 B1709231 Huỳnh Thành Nam           19/08/1999      TN17Y8A2 Kỹ thuật điều khiển và tự động hóa
+      235   TN   1161 27/03/2023 B1710101 Lâm Ngọc Quyên            10/03/1997  N  TN17V6F1  Công nghệ kỹ thuật hóa học (chương trình chất lượng cao)
+      236   TN   1161 27/03/2023 B1803278 Nguyễn Văn Vủ Luân        22/07/2000      TN1893A1  Kỹ thuật cơ khí
+      237   TN   1161 27/03/2023 B1803542 Triệu Hoài Nam             24/06/2000      TN1884A3  Kỹ thuật cơ khí
+      238   TN   1161 27/03/2023 B1803598 Trịnh Văn Tuấn             06/11/2000      TN1884A3  Kỹ thuật cơ khí
+      239   TN   1161 27/03/2023 B1805116 Lê Hồng Hạnh              05/08/2000  N   TN1883A1  Quản lý công nghiệp
+      240   TN   1161 27/03/2023 B1805235 Lương Văn Luân            15/06/2000      TN1883A3  Quản lý công nghiệp
+      241   TN   1161 27/03/2023 B1806266 Mai Chiêu Linh             01/01/1999      TN18S3A1  Kỹ thuật cơ điện tử
+      242   TN   1161 27/03/2023 B1806268 Nguyễn Quốc Long          13/08/2000      TN18S3A1  Kỹ thuật cơ điện tử
+      243   TN   1161 27/03/2023 B1806270 Nguyễn Tấn Lợi             10/05/2000      TN18S3A1  Kỹ thuật cơ điện tử
+
+                                                                            8
+     TT Đơn vị QĐ  Ngày ký   MSSV         Họ tên        Ngày sinh Nữ    Lớp                   Tên ngành
+      244   TN   1161 27/03/2023 B1806281 Huỳnh Trung Nhựt           01/01/2000      TN18S3A1 Kỹ thuật cơ điện tử
+      245   TN   1161 27/03/2023 B1806376 Trần Minh Quân            01/01/2000      TN18S3A2  Kỹ thuật cơ điện tử
+      246   TN   1161 27/03/2023 B1806441 Trần Bảo Long              28/12/2000      TN18T1A1  Kỹ thuật xây dựng công trình giao thông
+      247   TN   1161 27/03/2023 B1806462 Trang Đình Thái            19/06/2000      TN18T1A1  Kỹ thuật xây dựng công trình giao thông
+      248   TN   1161 27/03/2023 B1806463 Phạm Hữu Thắng            19/10/2000      TN18T1A1  Kỹ thuật xây dựng công trình giao thông
+      249   TN   1161 27/03/2023 B1806623 Nguyễn Văn Hiếu           10/02/2000      TN18T4A1  Kỹ thuật vật liệu
+      250   TN   1161 27/03/2023 B1806634 Huỳnh Minh Khôi           17/04/2000      TN18T4A1  Kỹ thuật vật liệu
+      251   TN   1161 27/03/2023 B1806639 Nguyễn Hoàng Long         28/04/2000      TN18T4A1  Kỹ thuật vật liệu
+      252   TN   1161 27/03/2023 B1806648 Đoàn Thị Huỳnh Như        17/06/2000  N  TN18T4A1  Kỹ thuật vật liệu
+      253   TN   1161 27/03/2023 B1806652 Dương Vũ Phương           12/07/1999      TN18T4A1  Kỹ thuật vật liệu
+      254   TN   1161 27/03/2023 B1806663 Lê Văn Tiến                15/11/2000      TN18T4A1  Kỹ thuật vật liệu
+      255   TN   1161 27/03/2023 B1806681 Lương Hoài Bão            24/10/2000      TN18T5A1  Kỹ thuật điện
+      256   TN   1161 27/03/2023 B1806691 Tô Hải Đăng               02/01/2000      TN18T5F1  Kỹ thuật điện (chương trình chất lượng cao)
+      257   TN   1161 27/03/2023 B1806719 Trần Văn Mến              20/06/2000      TN18T5A1  Kỹ thuật điện
+      258   TN   1161 27/03/2023 B1806779 Phạm Hồng Xinh            15/06/2000      TN18T5A1  Kỹ thuật điện
+      259   TN   1161 27/03/2023 B1806794 Phạm Thái Điền             16/01/2000      TN18T5A2  Kỹ thuật điện
+      260   TN   1161 27/03/2023 B1806803 Biện Quốc Huy             16/08/2000      TN18T5A2  Kỹ thuật điện
+      261   TN   1161 27/03/2023 B1806872 Nguyễn Nhựt Trường         04/01/2000      TN18T5A2  Kỹ thuật điện
+      262   TN   1161 27/03/2023 B1806887 Lê Nguyễn Anh Tuấn        26/06/2000      TN18T5F1  Kỹ thuật điện (chương trình chất lượng cao)
+      263   TN   1161 27/03/2023 B1806901 Trần Hải Đăng              13/03/2000      TN18T6A1  Kỹ thuật điện tử - viễn thông
+      264   TN   1161 27/03/2023 B1807020 Lê Thị Cẩm Tiên            29/07/2000  N  TN18T6A2  Kỹ thuật điện tử - viễn thông
+      265   TN   1161 27/03/2023 B1807054 Trần Văn Duy              27/07/2000      TN18T7A1  Kỹ thuật xây dựng
+      266   TN   1161 27/03/2023 B1807060 Tống Văn Đạt              07/06/2000      TN18T7A3  Kỹ thuật xây dựng
+      267   TN   1161 27/03/2023 B1807063 Trần Hải Đăng              00/00/2000      TN18T7A1  Kỹ thuật xây dựng
+      268   TN   1161 27/03/2023 B1807100 Nguyễn Việt Khải           23/01/2000      TN18T7A1  Kỹ thuật xây dựng
+      269   TN   1161 27/03/2023 B1807115 Lâm Chí Linh               05/04/2000      TN18T7A1  Kỹ thuật xây dựng
+      270   TN   1161 27/03/2023 B1807152 Phan Trường Nhựt           15/03/2000      TN18T7A3  Kỹ thuật xây dựng
+      271   TN   1161 27/03/2023 B1807182 Phan Chí Thiện             10/03/2000      TN18T7A1  Kỹ thuật xây dựng
+      272   TN   1161 27/03/2023 B1807216 Huỳnh Hải An              19/12/2000      TN18T7A4  Kỹ thuật xây dựng
+      273   TN   1161 27/03/2023 B1807233 Đỗ Hữu Duy                02/04/2000      TN18T7A4  Kỹ thuật xây dựng
+      274   TN   1161 27/03/2023 B1807243 Phạm Thành Đạt            31/01/2000      TN18T7A4  Kỹ thuật xây dựng
+      275   TN   1161 27/03/2023 B1807257 Nguyễn Phúc Hậu           13/07/2000      TN18T7A4  Kỹ thuật xây dựng
+      276   TN   1161 27/03/2023 B1807280 Phạm Hoàng Khang          07/04/2000      TN18T7A4  Kỹ thuật xây dựng
+      277   TN   1161 27/03/2023 B1807288 Trần Tuấn Khoa             24/02/2000      TN18T7A2  Kỹ thuật xây dựng
+      278   TN   1161 27/03/2023 B1807306 Nguyễn Phúc Bảo Long       07/11/2000      TN18T7A2  Kỹ thuật xây dựng
+
+                                                                            9
+     TT Đơn vị QĐ  Ngày ký   MSSV         Họ tên        Ngày sinh Nữ    Lớp                   Tên ngành
+      279   TN   1161 27/03/2023 B1807373 La Duy Thức               02/05/2000      TN18T7A2 Kỹ thuật xây dựng
+      280   TN   1161 27/03/2023 B1808900 Trương Lê Thanh Bảo        10/10/2000      TN18V6A1 Công nghệ kỹ thuật hóa học
+      281   TN   1161 27/03/2023 B1808912 Võ Phát Đạt                26/09/2000      TN18V6A1 Công nghệ kỹ thuật hóa học
+      282   TN   1161 27/03/2023 B1808958 Võ Thị Hồng Phấn           18/10/2000  N  TN18V6A1 Công nghệ kỹ thuật hóa học
+      283   TN   1161 27/03/2023 B1809029 Trương Chánh Linh          29/08/2000      TN18V6A2 Công nghệ kỹ thuật hóa học
+      284   TN   1161 27/03/2023 B1809037 Lê Kim Ngân               22/10/2000  N  TN18V6A2 Công nghệ kỹ thuật hóa học
+      285   TN   1161 27/03/2023 B1809080 Võ Thanh Tín               17/10/2000      TN18V6F1  Công nghệ kỹ thuật hóa học (chương trình chất lượng cao)
+      286   TN   1161 27/03/2023 B1809097 Nguyễn Phi Long            02/02/2000      TN18V6F1  Công nghệ kỹ thuật hóa học (chương trình chất lượng cao)
+      287   TN   1161 27/03/2023 B1809099 Nguyễn Quốc Thắng         27/04/2000      TN18V6F1  Công nghệ kỹ thuật hóa học (chương trình chất lượng cao)
+      288   TN   1161 27/03/2023 B1811948 Lê Trần Đăng Khoa          14/01/2000      TN18Y8A1 Kỹ thuật điều khiển và tự động hóa
+      289   TN   1161 27/03/2023 B1811983 Hà Chí Thành               27/09/2000      TN18Y8A3 Kỹ thuật điều khiển và tự động hóa
+      290   TN   1161 27/03/2023 B1812042 Phan Hồng Khanh           27/10/2000      TN18Y8A3 Kỹ thuật điều khiển và tự động hóa
+      291   TN   1161 27/03/2023 B1812092 Phùng Minh Triết            29/06/2000      TN18T5F1  Kỹ thuật điện (chương trình chất lượng cao)
+      292   TN   1161 27/03/2023 B1812170 Huỳnh Công Thịnh          24/01/2000      TN18Z5A1  Kỹ thuật máy tính
+      293   TN   1161 27/03/2023 B1812196 Tôn Hồng Đệ               01/08/2000      TN18Z5A2  Kỹ thuật máy tính
+      294   TN   1161 27/03/2023 B1812232 Trần Thanh Cao Quí         14/09/2000      TN18Z5A2  Kỹ thuật máy tính
+      295   TN   1161 27/03/2023 B1812702 Thạch Thái An              14/01/2000      TN18T6A3  Kỹ thuật điện tử - viễn thông
+      296   TN   1161 27/03/2023 B1908023 Thái Trung Tình             25/01/2001      TN19T7A4  Kỹ thuật xây dựng
+      297   TN   1161 27/03/2023 B1909726 Nguyễn Hải Thạch           10/08/1999      TN19V6A3 Công nghệ kỹ thuật hóa học
+      298   TN   1161 27/03/2023 C1700075 Huỳnh Nhân Quyền          30/04/1996      TN17T2A3  Kỹ thuật công trình xây dựng
+      299   TS   1162 27/03/2023 B1800790 Hàn Chí Thiện              16/11/2000      TS1813A1  Nuôi trồng thủy sản
+      300   TS   1162 27/03/2023 B1800812 Võ Nhựt Trường            20/05/2000      TS1813A1  Nuôi trồng thủy sản
+      301   TS   1162 27/03/2023 B1800938 Hà Quang Thái              08/05/2000      TS1813T1  Nuôi trồng thủy sản (chương trình tiên tiến)
+      302   TS   1162 27/03/2023 B1800947 Lương Minh Thiện           18/12/2000      TS1813A3  Nuôi trồng thủy sản
+      303   TS   1162 27/03/2023 B1800959 Võ Minh Tiến              28/04/2000      TS1813A2  Nuôi trồng thủy sản
+      304   TS   1162 27/03/2023 B1800977 Nguyễn Hồng Vinh          10/04/2000      TS1813T1  Nuôi trồng thủy sản (chương trình tiên tiến)
+      305   TS   1162 27/03/2023 B1804787 Nguyễn Thị Yến Ly          28/05/2000  N   TS1876A1  Bệnh học thủy sản
+      306   TS   1162 27/03/2023 B1806170 Nguyễn Huy Nhã            07/07/2000      TS18S2A1  Quản lý thủy sản
+      307   TS   1162 27/03/2023 B1806193 Dương Ngọc Hương Tâm     28/07/2000  N   TS18S2A1  Quản lý thủy sản
+      308   TS   1162 27/03/2023 B1806215 Lê Thị Huế Trân            22/04/2000  N   TS18S2A1  Quản lý thủy sản
+      309   TS   1162 27/03/2023 B1900011 Huỳnh Nhật An             20/05/2000      TS1913A1  Nuôi trồng thủy sản
+      310   TS   1162 27/03/2023 B1900328 Dương Kiêm Hoàng Châu     28/04/2000  N   TS1982A1  Công nghệ chế biến thủy sản
+      311   TS   1162 27/03/2023 B1901096 Nguyễn Thị Thu Thảo        30/04/2001  N   TS1913A3  Nuôi trồng thủy sản
+      312   TS   1162 27/03/2023 B1901128 Trần Ngọc Tứ               11/09/2001      TS1913A3  Nuôi trồng thủy sản
+      313   TS   1162 27/03/2023 B1901135 Nguyễn Tân Vương          12/02/2001      TS1913A3  Nuôi trồng thủy sản
+
+                                                                           10
+     TT Đơn vị QĐ  Ngày ký   MSSV         Họ tên        Ngày sinh Nữ    Lớp                   Tên ngành
+      314   TS   1162 27/03/2023 B1901163 Ong Thùy Dương            02/07/2001  N   TS1913A2 Nuôi trồng thủy sản
+      315   TS   1162 27/03/2023 B1901177 Trần Minh Hiếu             11/01/2001      TS1913A2  Nuôi trồng thủy sản
+      316   TS   1162 27/03/2023 B1901183 Trần Văn Kha              30/04/2001      TS1913A2  Nuôi trồng thủy sản
+      317   TS   1162 27/03/2023 B1905582 Hồ Nguyễn Trúc Thy         08/01/2001  N   TS1982A1  Công nghệ chế biến thủy sản
+      318   TS   1162 27/03/2023 B1905614 Lê Nguyễn Trúc Anh         03/03/2001  N   TS1982A2  Công nghệ chế biến thủy sản
+      319   TS   1162 27/03/2023 B1905682 Nguyễn Ngọc Yến Phương    05/05/2001  N   TS1982A2  Công nghệ chế biến thủy sản
+      320   TS   1162 27/03/2023 B1905703 Võ Thị Bảo Trâm            01/05/2001  N   TS1982A2  Công nghệ chế biến thủy sản
+      321   TS   1162 27/03/2023 B1905725 Hồ Thị Huỳnh Ý            26/07/2001  N   TS1982A2  Công nghệ chế biến thủy sản
+      322   XH   1163 27/03/2023 B1707975 Trần Ngọc Huỳnh Giao       19/06/1999  N  XH17W8A1 Việt Nam học
+      323   XH   1163 27/03/2023 B1800035 Thạch Thị Thùy Dung        06/01/1999  N  XH18U4A2 Xã hội học
+      324   XH   1163 27/03/2023 B1804870 Nguyễn Thị Ngọc Huyền      10/11/2000  N  XH1880A2  Thông tin - thư viện
+      325   XH   1163 27/03/2023 B1807937 Nguyễn Thanh Thảo         02/10/2000  N  XH18U4A1 Xã hội học
+      326   XH   1163 27/03/2023 B1810783 Nguyễn Kiều Duyên         08/01/2000  N  XH18W7A1 Văn học
+      327   XH   1163 27/03/2023 B1810872 Văng Thị Kiều Vân          31/01/2000  N  XH18W7A1 Văn học
+      328   XH   1163 27/03/2023 B1810912 Huỳnh Trúc My             25/07/2000  N  XH18W7A2 Văn học
+      329   XH   1163 27/03/2023 B1811134 Phạm Ngọc Mai             05/11/2000  N  XH18W8A2 Việt Nam học
+      330   XH   1163 27/03/2023 B1812626 Nguyễn Thị Mỹ Xuyên       21/11/2000  N  XH1880A1  Thông tin - thư viện
+      331   XH   1163 27/03/2023 B1812632 Lê Thị Lịnh                10/02/2000  N  XH1880A2  Thông tin - thư viện
+      332   XH   1163 27/03/2023 B1908586 Nguyễn Thị Mỹ Duyên       12/01/2001  N  XH19U4A1 Xã hội học
+      333   XH   1163 27/03/2023 B1908600 Đinh Phương Linh           20/12/2001  N  XH19U4A1 Xã hội học
+      334   XH   1163 27/03/2023 B1908642 Phan Ngọc Trúc             09/06/2001  N  XH19U4A1 Xã hội học
+      335   XH   1163 27/03/2023 B1908699 Đặng Thị Anh Thư           24/09/2001  N  XH19U4A2 Xã hội học
+      336   XH   1163 27/03/2023 B1911945 Huỳnh Như                 26/02/2001  N  XH19W7A2 Văn học
+      337   XH   1163 27/03/2023 B1911969 Trần Minh Thư             05/10/2001  N  XH19W7A2 Văn học
+      338   XH   1163 27/03/2023 B1912220 Nguyễn Minh Tấn           07/11/2001     XH19W8A2 Việt Nam học
+                                                                 TRƯỜNG ĐẠI HỌC CẦN THƠ
+
+

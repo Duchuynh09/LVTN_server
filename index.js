@@ -5,4 +5,4 @@ export { default as userRouter } from "./routers/userRoutes.js";
 export { default as sendMailRouter } from "./routers/sendMailRoutes.js";
 export { default as postsRouter } from "./routers/postsRoutes.js";
 export { default as devicesRouter } from "./routers/deviceRoutes.js";
-export { default as readFileRouter } from "./routers/readFile.js";
+// export { default as readFileRouter } from "./routers/readFile.js";

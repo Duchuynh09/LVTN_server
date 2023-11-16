@@ -12,7 +12,6 @@ import {
   sendMailRouter,
   devicesRouter,
   productRouter,
-  readFileRouter,
 } from "./index.js";
 env.config();
 

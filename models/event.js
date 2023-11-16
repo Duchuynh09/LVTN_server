@@ -1,7 +1,12 @@
 import mongoose from "mongoose";
 
 const schema = mongoose.Schema({
+  type: { type: String, required: true },
   name: {
+    type: String,
+    required: true,
+  },
+  type: {
     type: String,
     required: true,
   },
@@ -30,6 +35,13 @@ const schema = mongoose.Schema({
   },
   specialSeat: {
     type: Array,
+  },
+  sortDssv: {
+    type: Object,
+    default: {
+      az: true,
+      type: "mssv",
+    },
   },
   sponsors: [
     {
